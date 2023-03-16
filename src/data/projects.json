@@ -1,0 +1,14 @@
+[
+    {
+      "name": "excuse generator",
+      "live": "https://project1-iota-opal.vercel.app/",
+      "git": "https://github.com/cinduhrz/Project1",
+      "image": "https://i.imgur.com/n92hsma.png"
+    },
+    {
+      "name": "theraNotes",
+      "live": "https://project2-6lhz.onrender.com/",
+      "git": "https://github.com/cinduhrz/Project2-theraNotes",
+      "image": "https://i.imgur.com/Sju1PXn.png"
+    }
+]
