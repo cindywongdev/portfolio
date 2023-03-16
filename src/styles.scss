@@ -18,6 +18,11 @@ html {
     display: flex;
 }
 
+.d-flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
 .ai-center {
     align-items: center;
 }
@@ -39,6 +44,31 @@ html {
 
 .job-title, .location-title {
     margin: 0.5rem 0;
+}
+
+.down-button {
+    color: black;
+    font-size: 2rem;
+    margin-top: 1rem;
+
+    :hover {
+        color: $contrastcolorhover;
+        transition: 0.2s;
+    }
+}
+
+.project-card {
+    margin-top: 3rem;
+
+    img {
+        margin-bottom: 1rem;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+
+    button {
+        margin: 10px;
+    }
 }
 
 @mixin black-text-white-bg {

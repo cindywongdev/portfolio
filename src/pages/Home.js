@@ -1,4 +1,5 @@
 import Header from "../components/Header"
+import { AiOutlineArrowDown } from "react-icons/ai"
 
 const Home = (props) => {
     const frontPageStyling = {
@@ -14,6 +15,7 @@ const Home = (props) => {
                     <h2 class="job-title">Software Engineer</h2>
                     <h3 class="location-title">New York, NY</h3>
                     <Header></Header>
+                    <a href="#work"><div class="down-button"><AiOutlineArrowDown/></div></a>
                 </div>
             </div>
         </main>

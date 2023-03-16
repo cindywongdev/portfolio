@@ -18,9 +18,9 @@ const Header = (props) => {
                 <a href="#about">
                     <div>About</div>
                 </a>
-                <button>
-                    Download Resume
-                </button>
+                <a href="%PUBLIC_URL%/Cindy_Wong_Resume.pdf">
+                    Resume
+                </a>
             </nav>
         </header>
     </>)
