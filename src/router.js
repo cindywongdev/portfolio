@@ -12,7 +12,7 @@ import { projectsLoader, aboutLoader } from './loaders'
 
 const router = createBrowserRouter(
     createRoutesFromElements(
-        <Route path="/cindywongdev.github.io" element={<App/>}>
+        <Route path="/" element={<App/>}>
             <Route path="" element={<Home/>}/>
             <Route
             path="about"
