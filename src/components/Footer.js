@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom'
-
 const Footer = (props) => {
     return (<>
         <footer>
@@ -8,15 +6,15 @@ const Footer = (props) => {
                 <p>This portfolio site was made by Cindy Wong. Check out Cindy's links! She will be very happy.</p>
             </div>
             <div className="footer-nav">
-                <Link to="https://github.com/cinduhrz">
+                <a href="https://github.com/cindywongdev" target="_blank">
                     <div>Github</div>
-                </Link>
-                <Link to="https://www.linkedin.com/in/cindywongdev/">
+                </a>
+                <a href="https://www.linkedin.com/in/cindywongdev/" target="_blank">
                     <div>LinkedIn</div>
-                </Link>
-                <Link to="https://github.com/cinduhrz/portfolio-hw-frontend">
-                    <div>This Portfolio's Repo</div>
-                </Link>
+                </a>
+                <a href="#">
+                    <div>Contact</div>
+                </a>
             </div>
         </footer>
     </>)

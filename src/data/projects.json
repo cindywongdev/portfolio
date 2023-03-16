@@ -1,14 +1,34 @@
 [
-    {
-      "name": "excuse generator",
-      "live": "https://project1-iota-opal.vercel.app/",
-      "git": "https://github.com/cinduhrz/Project1",
-      "image": "https://i.imgur.com/n92hsma.png"
-    },
-    {
-      "name": "theraNotes",
-      "live": "https://project2-6lhz.onrender.com/",
-      "git": "https://github.com/cinduhrz/Project2-theraNotes",
-      "image": "https://i.imgur.com/Sju1PXn.png"
-    }
+  {
+    "name": "Quotidian",
+    "technologies": "React, Bootstrap, JavaScript, HTML/CSS, SASS, Django, Python, PostgreSQL",
+    "description": "Keep track of your to-dos in this category-based to-do list.",
+    "live": "https://quotidianlists.netlify.app",
+    "git": "https://github.com/cindywongdev/Project4-Quotidian-frontend",
+    "image": "https://i.imgur.com/YXdBtYD.png"
+  },
+  {
+    "name": "myEvents",
+    "technologies": "Node.js, Express.js, React, Bootstrap, JavaScript, HTML/CSS, MongoDB",
+    "description": "Track upcoming events and deadlines, counter timer included.",
+    "live": "https://myevents-s.netlify.app/",
+    "git": "https://github.com/Alex-dev7/Project3-myEvents-frontend",
+    "image": "https://i.imgur.com/7ZJ5ZwT.png"
+  },
+  {
+    "name": "theraNotes",
+    "technologies": "",
+    "description": "",
+    "live": "https://project2-6lhz.onrender.com/",
+    "git": "https://github.com/cinduhrz/Project2-theraNotes",
+    "image": "https://i.imgur.com/Sju1PXn.png"
+  },
+  {
+    "name": "excuse generator",
+    "technologies": "",
+    "description": "",
+    "live": "https://project1-iota-opal.vercel.app/",
+    "git": "https://github.com/cinduhrz/Project1",
+    "image": "https://i.imgur.com/n92hsma.png"
+  }
 ]

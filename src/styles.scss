@@ -6,10 +6,39 @@ $accentcolor: rgb(62, 116, 69);
 
 * {
     box-sizing: border-box;
+    font-family: 'Sono', sans-serif;
+    scroll-behavior: smooth;
 }
 
 html {
     padding: 0;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.name-title {
+    font-size: 4rem;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    margin-bottom: 0;
+}
+
+.job-title, .location-title {
+    margin: 0.5rem 0;
 }
 
 @mixin black-text-white-bg {

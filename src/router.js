@@ -7,7 +7,7 @@ import {
 import App from './App'
 import Home from './pages/Home'
 import About from './pages/About'
-import Projects from './pages/Projects'
+import Projects from './pages/Work'
 import { projectsLoader, aboutLoader } from './loaders'
 
 const router = createBrowserRouter(
