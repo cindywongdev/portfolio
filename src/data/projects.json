@@ -17,16 +17,16 @@
   },
   {
     "name": "theraNotes",
-    "technologies": "",
-    "description": "",
+    "technologies": "Node.js, Express.js, HTML/CSS, JavaScript, MongoDB",
+    "description": "Keep notes for each therapy session, share them with your therapist, and track progress over time.",
     "live": "https://project2-6lhz.onrender.com/",
     "git": "https://github.com/cinduhrz/Project2-theraNotes",
     "image": "https://i.imgur.com/Sju1PXn.png"
   },
   {
     "name": "excuse generator",
-    "technologies": "",
-    "description": "",
+    "technologies": "JavaScript, HTML/CSS",
+    "description": "Generate an excuse for a variety of situations that warrant avoiding.",
     "live": "https://project1-iota-opal.vercel.app/",
     "git": "https://github.com/cinduhrz/Project1",
     "image": "https://i.imgur.com/n92hsma.png"
