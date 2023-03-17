@@ -18,7 +18,7 @@ const Header = (props) => {
                 <a href="#about">
                     <div>About</div>
                 </a>
-                <a href="%PUBLIC_URL%/Cindy_Wong_Resume.pdf">
+                <a href="https://drive.google.com/file/d/1x1dF-KLGWM5JVn1CAwy5aj79FAntjEoF/view?usp=share_link" target="_blank" rel="noreferrer">
                     Resume
                 </a>
             </nav>
