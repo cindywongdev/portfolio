@@ -1,3 +1,5 @@
+import { AiOutlineArrowUp } from "react-icons/ai"
+
 const About = (props) => {
     const about = require('../data/about.json')
 
@@ -16,6 +18,7 @@ const About = (props) => {
             <h3>Technical Skills</h3>
             <p>Languages - JavaScript, HTML5, CSS3, Python | Libraries and Frameworks - Express.js, React.js, Node.js, jQuery, SASS, TailwindCSS, Bootstrap, Flask | Databases -  MongoDB, PostgreSQL  | Other - Agile, Scrum, RESTful Routing, JSON, MVC frameworks, Postman, Github, VSCode, Trello, Figma, Adobe Suite (Illustrator, Photoshop, InDesign, XD), Microsoft Office, Canva</p>
         </div>
+        <div class="up-button"><a href="#top"><AiOutlineArrowUp/></a></div>
     </main></>)
 }
 

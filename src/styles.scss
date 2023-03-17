@@ -46,8 +46,8 @@ html {
     margin: 0.5rem 0;
 }
 
-.down-button {
-    color: black;
+.down-button, .up-button {
+    color: black !important;
     font-size: 2rem;
     margin-top: 1rem;
 
@@ -55,6 +55,11 @@ html {
         color: $contrastcolorhover;
         transition: 0.2s;
     }
+}
+
+.up-button {
+    position: relative;
+    left: 85vw;
 }
 
 .project-card {
