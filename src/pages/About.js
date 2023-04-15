@@ -17,6 +17,13 @@ const About = (props) => {
             <p>Brooklyn-born and raised software engineer with a passion for making a positive impact on the people and world around me. With a bachelor’s degree in psychology and experience in customer service, I aim to tackle problems with a user-centered approach, understanding the human behind the screen. I am a quick learner who is able to fuse my proficiency in graphic design software with newly learned technologies such as React and CSS, allowing me to develop effective and elegant technical solutions.</p>
             <h3>Technical Skills</h3>
             <p>Languages - JavaScript, HTML5, CSS3, Python | Libraries and Frameworks - Express.js, React.js, Node.js, jQuery, SASS, TailwindCSS, Bootstrap, Flask | Databases -  MongoDB, PostgreSQL  | Other - Agile, Scrum, RESTful Routing, JSON, MVC frameworks, Postman, Github, VSCode, Trello, Figma, Adobe Suite (Illustrator, Photoshop, InDesign, XD), Microsoft Office, Canva</p>
+
+            <h2>Contact Me</h2>
+            <p>{about.email}</p>
+            <a href="#">https://github.com/cindywongdev</a>
+            <br></br>
+            <a href="#">https://linkedin.com/cindywongdev</a>
+            
         </div>
         <a href="#top"><div class="up-button"><AiOutlineArrowUp/></div></a>
     </main></>)
