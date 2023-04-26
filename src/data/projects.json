@@ -1,5 +1,13 @@
 [
   {
+    "name": "Leftover",
+    "technologies": "Vue, TailwindCSS, Auth0, JavaScript, HTML/CSS, SASS, Django, Python, PostgreSQL",
+    "description": "List your restaurant's surplus food for those in need or pickup local food donations.",
+    "live": "https://leftover.vercel.app/",
+    "git": "https://github.com/cindywongdev/capstone-frontend",
+    "image": "https://i.imgur.com/zkr6YcO.jpg"
+  },
+  {
     "name": "Quotidian",
     "technologies": "React, Bootstrap, JavaScript, HTML/CSS, SASS, Django, Python, PostgreSQL",
     "description": "Keep track of your to-dos in this category-based to-do list.",
