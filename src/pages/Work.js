@@ -13,15 +13,23 @@ const Projects = (props) => {
         {projects.map((project) => (
             <div class="project-card d-flex-col ai-center">
                     <h1>{project.name}</h1>
-                    <p>{project.technologies}</p>
-                    <p>{project.description}</p>
+
+                    <p class="text">{project.description}</p>
+
+                    <a href={project.live}>
                     <img src={project.image} alt={project.name} style={imageStyling}/>
-                    <a href={project.live} target="_blank" rel="noreferrer">
-                        <button>Live Demo</button>
                     </a>
-                    <a href={project.git} target="_blank" rel="noreferrer">
-                        <button>Github Repo</button>
-                    </a>
+
+                    <p class="text">{project.technologies}</p>
+
+                    <container class="buttons-container">
+                        <a href={project.live} target="_blank" rel="noreferrer">
+                            <button> Live Demo</button>
+                        </a>
+                        <a href={project.git} target="_blank" rel="noreferrer">
+                            <button>Github Repo</button>
+                        </a>
+                    </container>
             </div>
         ))}
     </main></>)

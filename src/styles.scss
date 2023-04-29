@@ -64,16 +64,31 @@ html {
 
 .project-card {
     margin-top: 3rem;
+    // border: 1px solid red;
+    padding: 0 2rem;
+    text-align: center;
+
+    .text {
+        // border: 1px solid red;
+        width: 30%;
+        min-width: 400px;
+    }
+
 
     img {
         margin-bottom: 1rem;
         border: 1px solid black;
         border-radius: 10px;
+        margin: 0 auto;
     }
 
     button {
         margin: 10px;
     }
+}
+
+.buttons-container {
+    margin-bottom: 1rem;
 }
 
 @mixin black-text-white-bg {
