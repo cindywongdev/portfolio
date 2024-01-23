@@ -1,5 +1,13 @@
 [
   {
+    "name": "Exoplanetarium",
+    "technologies": "React, Node.js, JavaScript, HTML/CSS, Three.js",
+    "description": "Explore a distant star system's exoplanets.",
+    "live": "hhttps://spacelabdev.github.io/Exoplanetarium-3D/",
+    "git": "hhttps://github.com/spacelabdev/Exoplanetarium-3D",
+    "image": "https://i.imgur.com/nu76SP1.png"
+  },
+  {
     "name": "Leftover",
     "technologies": "Vue, TailwindCSS, Auth0, JavaScript, HTML/CSS, SASS, Django, Python, PostgreSQL",
     "description": "List your restaurant's surplus food for those in need or pickup local food donations.",
