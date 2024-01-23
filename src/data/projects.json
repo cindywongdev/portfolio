@@ -3,8 +3,8 @@
     "name": "Exoplanetarium",
     "technologies": "React, Node.js, JavaScript, HTML/CSS, Three.js",
     "description": "Explore a distant star system's exoplanets.",
-    "live": "hhttps://spacelabdev.github.io/Exoplanetarium-3D/",
-    "git": "hhttps://github.com/spacelabdev/Exoplanetarium-3D",
+    "live": "https://spacelabdev.github.io/Exoplanetarium-3D/",
+    "git": "https://github.com/spacelabdev/Exoplanetarium-3D",
     "image": "https://i.imgur.com/nu76SP1.png"
   },
   {
