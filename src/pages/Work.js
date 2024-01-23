@@ -24,10 +24,10 @@ const Projects = (props) => {
 
                     <container class="buttons-container">
                         <a href={project.live} target="_blank" rel="noreferrer">
-                            <button> Live Demo</button>
+                            <button class="proj-button"> Live Demo</button>
                         </a>
                         <a href={project.git} target="_blank" rel="noreferrer">
-                            <button>Github Repo</button>
+                            <button class="proj-button">Github Repo</button>
                         </a>
                     </container>
             </div>

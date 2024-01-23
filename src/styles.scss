@@ -3,6 +3,26 @@ $maincolorhover: lightgray;
 $contrastcolor: rgb(50, 50, 50);
 $contrastcolorhover: rgb(100, 100, 100);
 $accentcolor: rgb(62, 116, 69);
+$accentcolorhover: rgb(98, 143, 104);
+
+@mixin black-text-white-bg {
+    background-color: $maincolor;
+    color: $contrastcolor;
+}
+
+@mixin white-text-green-bg {
+    background-color: $accentcolor;
+    color: $maincolor;
+}
+
+@mixin white-link-gray-hover {
+    color: $maincolor;
+    text-decoration: none;
+
+    &:hover {
+        color: $maincolorhover;
+    }
+}
 
 * {
     box-sizing: border-box;
@@ -93,24 +113,17 @@ html {
 
 .buttons-container {
     margin-bottom: 1rem;
-}
 
-@mixin black-text-white-bg {
-    background-color: $maincolor;
-    color: $contrastcolor;
-}
+    .proj-button{
+        @include white-text-green-bg();
+        border-radius: 10px;
+        border: none;
+        padding: 5px 10px;
 
-@mixin white-text-green-bg {
-    background-color: $accentcolor;
-    color: $maincolor;
-}
-
-@mixin white-link-gray-hover {
-    color: $maincolor;
-    text-decoration: none;
-
-    &:hover {
-        color: $maincolorhover;
+        &:hover{
+            cursor: pointer;
+            background: $accentcolorhover;
+        }
     }
 }
 
