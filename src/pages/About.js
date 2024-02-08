@@ -12,9 +12,9 @@ const About = (props) => {
         <a id="about"></a>
         <h1 class="section-heading text-center">About Cindy</h1>
         <div className="about" style={aboutStyling}>
+            <img className="about-img" alt="Cindy in Coit Tower, smiling by two windows overlooking San Francisco's cityscape." src="https://i.imgur.com/pmTUZ8Q.jpg"/>
+
             <div className="about-text">
-                <h2>{about.name}</h2>
-                <h3>{about.email}</h3>
                 <p>Brooklyn-born and raised software engineer with a background in psychology. Wanting to impact the world at a larger level, I shifted my focus from driving change at the individual level to the societal level. I am well versed in JavaScript and React, and I’m particularly passionate about creating impactful user-centric frontend experiences addressing broader societal issues, especially mental health and wellness.</p>
                 <h3>Technical Skills</h3>
                 <p>Programming Languages: JavaScript, HTML, CSS, Python, SQL</p>
@@ -28,8 +28,6 @@ const About = (props) => {
                 <br></br>
                 <a href="#">https://linkedin.com/cindywongdev</a>
             </div>  
-
-            <img className="about-img" alt="Cindy in Coit Tower, smiling by two windows overlooking San Francisco's cityscape." src="https://i.imgur.com/pmTUZ8Q.jpg"/>
         </div>
         <a href="#top"><div class="up-button"><AiOutlineArrowUp/></div></a>
     </main></>)
