@@ -84,6 +84,7 @@ html {
 .up-button {
     position: relative;
     left: 85vw;
+    width: fit-content;
 }
 
 .project-card {
@@ -145,6 +146,27 @@ body {
     }
 
     margin: 0px;
+
+    .about {
+        // border: 1px solid red;
+        display: flex;
+        height: 600px;
+
+        .about-img{
+            object-fit: contain;
+            margin-left: 30px;
+        }
+
+        @media screen and (max-width: 500px) {
+            // background-color: blue;
+            flex-direction: column;
+            height: fit-content;
+
+            .about-img{
+                margin-top: 30px;
+            }
+        }
+    }
 }
 
 footer {
