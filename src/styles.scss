@@ -157,6 +157,11 @@ body {
             margin-right: 30px;
         }
 
+        .contact-icons {
+            display: flex;
+            gap: 1rem;
+        }
+
         @media screen and (max-width: 500px) {
             // background-color: blue;
             flex-direction: column;
