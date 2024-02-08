@@ -18,7 +18,7 @@ const Header = (props) => {
                 <a href="#about">
                     <div>About</div>
                 </a>
-                <a href="https://drive.google.com/file/d/1x1dF-KLGWM5JVn1CAwy5aj79FAntjEoF/view?usp=share_link" target="_blank" rel="noreferrer">
+                <a href="https://drive.google.com/file/d/1c7xweliG6J5JSpyzV0TvqCUZv2uH40g6/view?usp=sharing" target="_blank" rel="noreferrer">
                     Resume
                 </a>
             </nav>
