@@ -1,13 +1,8 @@
 
 
 const Footer = (props) => {
-
-    const footerStyling = {
-        height: "10rem"
-    }
-
     return (<>
-        <footer style={footerStyling}>
+        <footer>
             <div className="footer-text-area">
                 <h2>Cindy Wong</h2>
                 <p>This portfolio site was made by Cindy Wong. Check out Cindy's links! She will be very happy.</p>
