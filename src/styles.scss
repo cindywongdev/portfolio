@@ -160,6 +160,10 @@ body {
         .contact-icons {
             display: flex;
             gap: 1rem;
+
+            .icon:hover {
+                opacity: .8;
+            }
         }
 
         @media screen and (max-width: 500px) {
